@@ -1,0 +1,104 @@
+/* Global reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Main container */
+.head-main-container{
+    width: 100%;
+}
+/* Content container */
+.content-container{
+    width: 100%;
+}
+/* Header and footer styling */
+.header,.footer{
+    background-color: #2F3D46;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+/* Footer specific styling */
+.footer{
+    padding: 29.9px;
+    background-color: #CAD2C5;
+    
+}
+/* GitHub logo styling */
+.git-logo{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 30px;
+    height: auto;
+}
+/* Side container styling */
+.side-container{
+    background-color: #353535;
+    padding: 5px;
+    width: 20%;
+    height: 520px;
+    border-radius: 10px;
+    float: left;
+    margin-top: 5%;
+    margin-left: 5%;   
+}
+/* Search container styling */
+.search-container{
+    display: flex;
+    background-color:#353535 ;
+    border: 2px solid #353535 ;
+    border-radius: 5px;
+    width: 30%;
+    height:30px;
+    padding: 5px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-20%);
+}
+/* Main content styling */
+.main-content{
+    background-color: #CAD2C5;
+    height: 610px;
+    padding: 20px;
+}
+/* Container boxes styling */
+.containerboxes{
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+/* Individual box styling */
+.box1, .box2, .box3{
+    flex: 1;
+    justify-content: space-evenly;
+    background-color: #353535;
+    height: 100px;
+    border: 1px solid #353535;
+    border-radius:10px;
+    margin: 0 20px;
+    margin-left: 10px;
+    transform: translate(130%);
+}
+/* Specific styling for box2 */
+.box2{
+    justify-content: center;
+    display: flex;
+}
+/* Container styling */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+/* Rectangular box styling */
+.rectangular-box{
+    width: 70%;
+    height: 100px;
+    border: 100px solid #353535;
+    margin:10px auto 0;
+    border-radius: 10px;
+    transform: translate(-5%);
+    margin-top: 10%;
+}
